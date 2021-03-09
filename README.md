@@ -17,6 +17,3 @@ Functionality:
 TO DO:
 
 - create SDLC (technical document for project)
-- begin project management in GITHUB
-- create branches for push/pull requests to and from project updates
-- upload README file and all module files
