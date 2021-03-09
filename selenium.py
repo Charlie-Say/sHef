@@ -12,5 +12,12 @@ This is for a single item/word:
     - click submit
 
 This is for detail of item (foodprint.org):
-    - 
+    - import selenium
+    - search site https://foodprint.org/?s=
+    - identify search bar
+    - click submit
+    - compare key word with link names (needs to be exact ==)
+
+
 """
+
