@@ -54,14 +54,13 @@ def speech_to_text():
         # to use another API key, use `r.recognize_google(audio, key="GOOGLE_SPEECH_RECOGNITION_API_KEY")`
         # instead of `r.recognize_google(audio)`
 
-        # print("You said: " + r.recognize_google(audio))
-
         audio_recording = r.recognize_google(audio)
 
+        # make every word into list item
         split_audio_list = audio_recording.split()
 
 
-
+        #
         print(split_audio_list)
 
     except sr.UnknownValueError:
