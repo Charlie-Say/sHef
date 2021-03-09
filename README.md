@@ -1,4 +1,4 @@
-README.txt file (sHef)
+sHef (add everything from SLDC.txt)
 
 
 Abstract: Build a web scraper for a voice activated and responsive program that will answer culinary questions of xyz items/ingredients.

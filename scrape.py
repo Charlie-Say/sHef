@@ -11,7 +11,7 @@ def pairings_scrape(url_given_ingredient):
     ingr_r = requests.get(ingr_site)
 
 
-    #parse
+    #read
     with open(ingr_r.text) as fp:
         soup = BeautifulSoup(fp, 'html.parser')
 
@@ -25,8 +25,26 @@ def details_scrape(url_given_ingredient):
     ingr_r = requests.get(ingr_site)
 
 
-    #parse
+    #read
     with open(ingr_r.text) as fp:
         soup = BeautifulSoup(fp, 'html.parser')
 
     return soup
+
+
+
+
+#parse
+def pairings_data():
+    '''use ingredientspairing.com'''
+    
+    return
+
+
+
+
+#parse
+def details_data():
+    '''use foodprint.org'''
+
+    return
