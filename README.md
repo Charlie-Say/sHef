@@ -11,10 +11,9 @@ Functionality:
 - efficiently identify products that pair well together
 - seasonality can be dependent on region
 - help culinary enthusiasts to be creative and knowledgable about local sources
-- maybe identify local farms/suppliers? (MAYBE - would take another BS4 program to scrape. Parsing is time consuming. Make this an add on)
+- maybe identify local farms/suppliers? (MAYBE - would take another BS4 program to scrape. Parsing is a bitch)
 
 
 TO DO:
 
 - create SDLC (technical document for project)
-- testing l
